@@ -1,11 +1,3 @@
-const database = 'Chat';
-
-const collection = 'Conversas'
-
-use(database);
-
-db[collection].insertMany(
-
     [
         {"Personagem":"Maria", "conversa":"Oi, tudo bem? A Black das Farmácias está ótima esse ano!", "DataHora":"28/11/2024 15:10"},
         {"Personagem":"José", "conversa":"Oi, tudo sim! Eu também vi, estão com ótimos descontos em vários produtos.", "DataHora":"28/11/2024 15:12"},
@@ -18,4 +10,4 @@ db[collection].insertMany(
         {"Personagem":"Maria", "conversa":"Sim, espero que chegue rápido. Aproveitei para garantir o estoque de alguns produtos essenciais.", "DataHora":"28/11/2024 15:35"},
         {"Personagem":"José", "conversa":"Eu fiz o mesmo, com os preços tão baixos, não dá para perder!", "DataHora":"28/11/2024 15:40"}
     ]
-)
+    

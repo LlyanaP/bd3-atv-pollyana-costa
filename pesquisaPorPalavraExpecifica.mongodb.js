@@ -4,4 +4,7 @@ const collection = 'Conversas'
 
 use(database);
 
-db[collection].find()
+db[collection].find(
+    {"conversa":/farmácias/i},
+
+)
