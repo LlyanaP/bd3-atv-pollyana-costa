@@ -4,4 +4,6 @@ const collection = 'Conversas'
 
 use(database);
 
-db[collection].find()
+db[collection].find({
+    
+}).sort({DataHora: 1});
